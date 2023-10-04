@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page1{
+    background-color: #06806d;
+}
+#page2{
+    background-color: #88e1d4;
+}
+#page3{
+    background-color: #27596b;
+}
+
+#box1{
+    height: 40%;
+    width:20%;
+    background-color: rgb(112, 33, 49);
+}
+#box2{
+    height: 40%;
+    width:20%;
+    background-color: rgb(112, 33, 49);
+}
+#box3{
+    height: 40%;
+    width:20%;
+    background-color: rgb(112, 33, 49);
+}

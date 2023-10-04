@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    padding: 0px 50px;
+ }
+
+ #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid #dadada;
+ }
+
+ #nav-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    text-transform: uppercase;
+ }
+
+ #nav-main h3{
+    font-size: 18px;
+ }
+
+ #nav-img h2{
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+ }
+
+ #nav-signin h3{
+    text-transform: uppercase; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+
+ #container{
+   height: 80%;
+   width: 100%;
+   display: flex;
+   margin-top: 20px;
+
+ }
+
+ #right{
+         height: 80%;
+         width: 50%;
+        overflow: hidden;
+ }
+
+ #left{
+
+   height: 80%;
+   width: 50%;
+ 
+   
+ }
+
+ #left h1 span img{
+   border-radius: 50%;
+   height:60px;
+   width:60px;
+   border: 3px solid black;
+   object-fit: cover;
+   margin-left: -18px;
+ }
+ #left span img :nth-child(1){
+   margin-right: 0px;
+
+ }
+
+ #left h1{
+   text-transform: uppercase;
+   font-size: 70px;
+   padding: 0px 50px ;
+   font-weight: 500;
+   cursor: grab;
+   
+ }
+
+ #left h1:last-child{
+   margin-left: 20px;
+  }
+
+ #page2{
+   height: 100%;
+   width: 100%;
+   background-color: #000000;
+   display: flex;
+   justify-content:space-evenly;
+   align-items: center;
+
+ }
+
+ .box{
+   height: 30%;
+   width: 20%;
+   border:1px solid white ;
+   border-radius: 10px;
+   text-align: center;
+   padding: 0 5px;
+ }
+
+ .box h3{
+           font-size: 30px;
+           margin-bottom: 10px;
+           margin-top: 10px;
+ }
+
+ .box p{
+       font-size: 18px;
+ }  
